@@ -1,0 +1,9 @@
+@media screen and (min-width: 992px) {
+    .card__image--desktop{
+        display: inline-block;
+    }
+
+    .card__image--mobile{
+        display: none;
+    }
+}
