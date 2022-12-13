@@ -1,4 +1,8 @@
 @media screen and (min-width: 992px) {
+    .card{
+        flex-direction: row;
+    }
+
     .card__image--desktop{
         display: inline-block;
     }

@@ -1,4 +1,8 @@
 @media screen and (min-width: 0px) {
+    .card{
+        flex-direction: column;
+    }
+
     .card__image--desktop{
         display: none;
     }

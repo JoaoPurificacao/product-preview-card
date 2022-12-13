@@ -1,41 +1,74 @@
 .card{
     background-color: var(--white);
+    border-radius: 10px;
+    display: flex;
+    /* height: 40rem; */
+    min-height: 40rem;
+    width: 80vw;
+}
+
+.card__image{
+    border-radius: 10px 10px 0px 0px;
 }
 
 .card__text{
-    
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 26rem;
+    padding: 1rem;
 }
 
 .card__text__subtitle{
-
+    letter-spacing: 0.25rem;
+    font-size: 1rem;
+    text-transform: uppercase;
 }
 
 .card__text__title{
-    
+    font-size: 1.9rem;
+    /* border: 1px solid blue; */
 }
 
 .card__text__description{
-
+    text-align: left;
+    /* border: 1px solid blue; */
 }
 
 .card__text_values{
-
+    align-items: center;
+    display: flex;
+    margin-bottom: 2rem;
 }
 
 .card__text_values--new{
-
+    color: var(--dark-cyan);
+    font-size: 2rem;
+    margin-right: 2rem;
 }
 
 .card__text_values--old{
-
+    font-size: 0.80rem;
+    text-decoration: line-through;
 }
 
 .card__text__button{
-
+    align-items: center;
+    align-self: center;
+    background-color: var(--dark-cyan);
+    border-radius: 3px;
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    justify-content: center;
+    height: 3rem;
+    width: 100%;
 }
 
 .card__text__button__image{
-
+    margin-right: 0.6rem;
 }
 
 .card__text__subtitle, .card__text__description, .card__text__button{
@@ -44,4 +77,8 @@
 
 .card__text__title, .card__text_values{
     font-family: var(--fraunces);
+}
+
+.card__text__subtitle, .card__text__description, .card__text_values--old{
+    color: var(--dark-grayish-blue)
 }
