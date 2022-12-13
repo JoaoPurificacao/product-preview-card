@@ -1,9 +1,9 @@
 .card{
-
+    background-color: var(--white);
 }
 
 .card__text{
-
+    
 }
 
 .card__text__subtitle{
@@ -11,7 +11,7 @@
 }
 
 .card__text__title{
-
+    
 }
 
 .card__text__description{
@@ -35,5 +35,13 @@
 }
 
 .card__text__button__image{
-    
+
+}
+
+.card__text__subtitle, .card__text__description, .card__text__button{
+    font-family: var(--montserrat);
+}
+
+.card__text__title, .card__text_values{
+    font-family: var(--fraunces);
 }
