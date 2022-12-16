@@ -3,7 +3,7 @@
     border-radius: 10px;
     display: flex;
     /* height: 40rem; */
-    min-height: 40rem;
+    min-height: 30rem;
     width: 80vw;
 }
 
@@ -12,27 +12,32 @@
 }
 
 .card__text{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 26rem;
+    height: 22rem;
     padding: 1rem;
 }
 
 .card__text__subtitle{
-    letter-spacing: 0.25rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.3rem;
     text-transform: uppercase;
+    margin-bottom: -1.2rem;
 }
 
 .card__text__title{
     font-size: 1.9rem;
+    /* border: 1px solid rgb(0, 68, 255); */
+    margin-bottom: -0.5rem;
     /* border: 1px solid blue; */
 }
 
 .card__text__description{
     text-align: left;
+    /* border: 1px solid red; */
+    font-size: 0.85rem;
     /* border: 1px solid blue; */
 }
 
@@ -45,7 +50,7 @@
 .card__text_values--new{
     color: var(--dark-cyan);
     font-size: 2rem;
-    margin-right: 2rem;
+    margin-right: 1.5rem;
 }
 
 .card__text_values--old{
